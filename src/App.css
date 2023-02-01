@@ -1,41 +1,51 @@
+*{margin: 0;padding: 0; box-sizing: border-box;}
 :root{
+  --CTA-color: #E9AF43;
+  --BACK-Ground-color:#EBF3FE;
+  --HEADING-color:#0B3C7F;
+
   font-family:'Montserrat', sans-serif !important;
+  font-size: 62.5%;  
 }
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar-Container
+{
   display: flex;
-  flex-direction: column;
+  width: auto;
+  height: 6.6rem;
+  background-color: #EBF3FE;
+  flex-wrap: wrap;
+}
+.list-Components{
+  display: flex;
+  gap: 5rem;
+  margin-left: 12rem;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.imag-Container{
+  width: 18.9rem;
+  height: 6.6rem;
+  display: flex;
+  align-items: center;
+  padding-left: 2.3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  
+}
+.list1{
+  display: flex;
+  align-items: center;
+
+}
+.flex-login{
+  display: flex;
+  gap: 2rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-left: 50rem;
+  margin-top: 2rem;
+  
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
