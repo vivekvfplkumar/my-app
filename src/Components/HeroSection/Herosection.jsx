@@ -7,7 +7,7 @@ function Herosection() {
             <div className='content-flex-row-one-content'>
                 <p className='main-heading'>Check Your </p>
                 <p className='second-heading'>CREDIT SCORE</p>
-                <p className='third-heading'>absolutely Free</p>
+                <p className='third-heading'>Absolutely Free</p>
 
                 <div className='div-main-btn-container'>
                     <button className='cta-btn-flex'>Check Now</button>

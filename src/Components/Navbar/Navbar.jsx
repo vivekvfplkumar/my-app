@@ -9,7 +9,7 @@ function Navbar() {
             </div>
             <div >
                 <ul className='list-Components'>
-                    <li className='list1'>Service</li>
+                    <li className='list1'>Services</li>
                     <li className='list1'>About Us</li>
                     <li className='list1'>Tool</li>
                     <li className='list1'>Contact Us</li>
