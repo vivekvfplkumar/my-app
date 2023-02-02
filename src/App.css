@@ -16,7 +16,7 @@ body{
 .navbar-Container
 {
   display: flex;
-  width: 1512px;
+  width: 1350px;
   height: 6.6rem;
   background-color: #EBF3FE;
   flex-wrap: wrap;
@@ -130,23 +130,54 @@ color: var(--HEADING-color);
 }
 .decoration{
 position: absolute;
-width: 1512px;
-height: 480px;
+width: 1350px;
+height: 420px;
 left: -2px;
 top: 0px;
 z-index: -1;
 overflow-x: hidden;
 background: #EBF3FE;
 }
+.decoration4{
+  position: absolute;
+  width: 1350px;
+  height: 420px;
+  left: -2px;
+  top: 107rem;
+  z-index: -1;
+  overflow-x: hidden;
+  background: #EBF3FE;
+  }
 .decoration1{
 position: absolute;
-width: 1512px;
+width: 1350px;
 height: 813px;
 left: 0px;
 top: 40rem;
 z-index: -2;
 background: linear-gradient(269.68deg, #0B3C7F 0.22%, #89A8D2 49.43%, #D0E4FE 99.68%);
 }
+
+.decoration2{
+position: absolute;
+width: 1350px;
+height: 15rem;
+background-color:var(--BACK-Ground-color);
+border-radius: 50%;
+z-index: -1;
+top: 35rem;
+left: 0px;
+}
+.decoration3{
+  position: absolute;
+  width: 1350px;
+  height: 25rem;
+  background-color:var(--BACK-Ground-color);
+  border-radius: 50%;
+  z-index: -1;
+  top: 95rem;
+  left: 0px;
+  }
 .card-container{
 max-width: 25.25rem;
 max-height: 15.5rem;
@@ -184,7 +215,7 @@ border-radius: 1.7rem;
   position: absolute;
 width: 120rem;
 height: 80%;
-top: 75rem;
+top: 70rem;
 left: 5%;
 flex-wrap: wrap;
 
